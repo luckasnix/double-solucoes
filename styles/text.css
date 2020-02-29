@@ -1,0 +1,37 @@
+.content {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+  background: #dcdde1ff;
+  display: grid;
+  grid-template-columns: minmax(200px, 800px);
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}
+.content * {
+  padding: 0px 20px;
+  justify-self: center;
+  align-self: center;
+}
+.content h1 {
+  font: bold 32px 'Jura', sans-serif;
+  text-align: center;
+  color: #192549ff;
+}
+.content h2 {
+  font: bold 20px 'Jura', sans-serif;
+  text-align: center;
+  color: #192549ff;
+}
+.content p {
+  font: 18px 'Jura', sans-serif;
+  text-align: justify;
+  text-indent: 40px;
+  line-height: 28px;
+  color: #192549ff;
+}
+.content img {
+  width: calc(100% - 40px);
+  height: auto;
+}

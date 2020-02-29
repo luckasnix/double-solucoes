@@ -1,0 +1,130 @@
+.section-wrapper {
+  max-width: 100%;
+  height: auto;
+  padding: 40px;
+  display: grid;
+}
+.section-title {
+  margin-bottom: 40px;
+  font: bold 32px 'Jura', sans-serif;
+  text-align: center;
+}
+.section-button {
+  margin-top: 40px;
+  padding: 8px;
+  justify-self: center;
+  border-width: 4px;
+  border-style: solid;
+  background: transparent;
+}
+.section-button a {
+  font: bold 20px 'Jura', sans-serif;
+}
+/* CARROUSEL */
+.siema img {
+  width: 100vw;
+  height: auto;
+}
+/* SOBRE */
+#sobre {
+  background: #dcdde1ff;
+}
+#sobre .section-title {
+  color: #192549ff;
+}
+#sobre .section-button {
+  border-color: #192549ff;
+}
+#sobre .section-button a {
+  color: #192549ff;
+}
+#sobre .quote {
+  display: grid;
+  gap: 32px;
+}
+#sobre .quote p {
+  font: italic 20px 'Jura', sans-serif;
+  color: #192549ff;
+}
+/* SERVIÇOS */
+#servicos {
+  background: #273c75ff;
+}
+#servicos .section-title {
+  color: #dcdde1ff;
+}
+#servicos .section-button {
+  border-color: #dcdde1ff;
+}
+#servicos .section-button a {
+  color: #dcdde1ff;
+}
+#servicos .card-list {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-content: center;
+  gap: 32px;
+}
+#servicos .card-item {
+  max-width: 320px;
+  height: auto;
+  display: grid;
+  gap: 16px;
+}
+#servicos .card-icon {
+  width: 160px;
+  height: 160px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+}
+#servicos .card-icon img {
+  width: 144px;
+  height: 144px;
+}
+#servicos .card-info h3 {
+  font: bold 20px 'Jura', sans-serif;
+  color: #dcdde1ff;
+  text-align: center;
+}
+#servicos .card-info p {
+  font: italic 16px 'Jura', sans-serif;
+  color: #dcdde1ff;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  #servicos .card-list {
+    grid-auto-flow: row;
+  }
+}
+/* CONTATO */
+#contato {
+  background: #dcdde1ff;
+}
+#contato .section-title {
+  color: #192549ff;
+}
+#contato .section-button {
+  border-color: #192549ff;
+}
+#contato .section-button a {
+  color: #192549ff;
+}
+.social-link-list {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-content: center;
+  gap: 64px;
+}
+.social-link-item {
+  width: 64px;
+  height: 64px;
+}
+@media (max-width: 800px) {
+  .social-link-list {
+    grid-auto-flow: row;
+  }
+}
